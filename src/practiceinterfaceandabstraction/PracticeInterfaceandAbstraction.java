@@ -16,15 +16,29 @@ public class PracticeInterfaceandAbstraction {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        int name;
+ 
         Ray metalgear1 = new Ray();
         Rex metalgear2 = new Rex();
-        metalgear1.setPiolt("Ocelot");
-        metalgear2.setPiolt("Liquid Snake");
         
-        System.out.println("Piolted by " + metalgear1.getPiolt());
-        metalgear1.destroy();
-        System.out.println("Piolted by " + metalgear2.getPiolt());
-        metalgear2.destroy();
+        System.out.println("What version of Metal Gear is it?");
+        //2 versions of Metal Gear were made Ray, Rex
+        name = keyboard.nextInt();
+        if (name == 1){
+            metalgear1.setPiolt("Ocelot");
+            System.out.println("Piolted by " + metalgear1.getPiolt());
+            metalgear1.destroy();
+        } else if (name == 2) {
+            metalgear2.setPiolt("Liquid Snake");
+            System.out.println("Piolted by " + metalgear2.getPiolt());
+            metalgear2.destroy();
+        }
+        else {
+            System.out.println("An unknown Metal Gear");
+        }
+        
+        
     }
     
 }
