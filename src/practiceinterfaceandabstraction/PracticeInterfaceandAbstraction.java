@@ -24,7 +24,7 @@ public class PracticeInterfaceandAbstraction {
         Gekko metalgear3 = new Gekko();
         
         System.out.println("What version of Metal Gear is it?");
-        //2 versions of Metal Gear were made Ray, Rex
+        //3 versions of Metal Gear were made Ray, Rex
         name = keyboard.nextInt();
         if (name == 1){
             metalgear1.setPiolt("Ocelot");
