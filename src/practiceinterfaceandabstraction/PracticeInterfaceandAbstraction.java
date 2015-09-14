@@ -28,15 +28,15 @@ public class PracticeInterfaceandAbstraction {
         name = keyboard.nextInt();
         if (name == 1){
             metalgear1.setPiolt("Ocelot");
-            System.out.println("Piolted by " + metalgear1.getPiolt());
+            System.out.println("Metal Gear Rex is piolted by " + metalgear1.getPiolt());
             metalgear1.destroy();
         } else if (name == 2) {
             metalgear2.setPiolt("Liquid Snake");
-            System.out.println("Piolted by " + metalgear2.getPiolt());
+            System.out.println("Metal Gear Ray is piolted by " + metalgear2.getPiolt());
             metalgear2.destroy();
         } else if (name == 3) {
             metalgear3.setPiolt("Artifical Intelligence");
-            System.out.println("Piolted by " + metalgear3.getPiolt());
+            System.out.println("Gekko's are piolted by " + metalgear3.getPiolt());
             metalgear3.destroy();
         }
         else {
