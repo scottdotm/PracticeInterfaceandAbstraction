@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package practiceinterfaceandabstraction;
 
+package practiceinterfaceandabstraction;
+import java.util.Scanner;
 /**
  *
  * @author Scott
@@ -17,8 +18,12 @@ public class PracticeInterfaceandAbstraction {
     public static void main(String[] args) {
         Ray metalgear1 = new Ray();
         Rex metalgear2 = new Rex();
+        metalgear1.setPiolt("Ocelot");
+        metalgear2.setPiolt("Liquid Snake");
         
+        System.out.println("Piolted by " + metalgear1.getPiolt());
         metalgear1.destroy();
+        System.out.println("Piolted by " + metalgear2.getPiolt());
         metalgear2.destroy();
     }
     
