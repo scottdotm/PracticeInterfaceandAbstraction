@@ -19,8 +19,9 @@ public class PracticeInterfaceandAbstraction {
         Scanner keyboard = new Scanner(System.in);
         int name;
  
-        Ray metalgear1 = new Ray();
-        Rex metalgear2 = new Rex();
+        Rex metalgear1 = new Rex();
+        Ray metalgear2 = new Ray();
+        Gekko metalgear3 = new Gekko();
         
         System.out.println("What version of Metal Gear is it?");
         //2 versions of Metal Gear were made Ray, Rex
@@ -33,6 +34,10 @@ public class PracticeInterfaceandAbstraction {
             metalgear2.setPiolt("Liquid Snake");
             System.out.println("Piolted by " + metalgear2.getPiolt());
             metalgear2.destroy();
+        } else if (name == 3) {
+            metalgear3.setPiolt("Artifical Intelligence");
+            System.out.println("Piolted by " + metalgear3.getPiolt());
+            metalgear3.destroy();
         }
         else {
             System.out.println("An unknown Metal Gear");

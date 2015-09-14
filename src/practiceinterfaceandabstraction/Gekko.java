@@ -9,9 +9,9 @@ package practiceinterfaceandabstraction;
  *
  * @author Scott
  */
-public class Rex extends MetalGear implements Destruction {
+public class Gekko extends MetalGear implements Destruction {
     
     public void destroy(){
-        System.out.println("Metal Gear Rex's head mounted Minigun rips through metal and stone, but leaving structures standing");
+        System.out.println("Miniture Metal Gears hunt in packs of 20 with the same artillery, while scaled down, as Rex");
     }
 }
