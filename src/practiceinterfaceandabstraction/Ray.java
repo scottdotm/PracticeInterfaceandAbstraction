@@ -12,6 +12,6 @@ package practiceinterfaceandabstraction;
 public class Ray extends MetalGear implements Destruction {
     
     public void destroy(){
-        System.out.println("Ray lauches a missle barrage, devistating the landscape and decimating buildings");
+        System.out.println("Ray lauches a missle barrage, devistating the landscape and decimating buildings.");
     }
 }
